@@ -14,7 +14,7 @@ This project is an AI agent-based Retrieval-Augmented Generation (RAG) system. I
     ```
 2. Navigate to the project directory:
     ```bash
-    cd RAG-with-AI-Agent
+    cd SmartRAG-RAG-with-AI-Agent
     ```
 3. Install the required dependencies:
     ```bash

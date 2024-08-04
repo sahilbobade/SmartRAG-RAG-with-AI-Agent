@@ -6,7 +6,6 @@ def main():
 
     #initialize model based on user config
     model = initialize_model(GPT_version ,temperature, is_verbose , api_key)
-
     #load vector database
     vectordb = load_vectordb()
 

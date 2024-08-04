@@ -14,6 +14,7 @@ streamlit_mic_recorder
 langchain_openai
 langchain_community
 langchain_chroma
+huggingface_hub
 #below modules are needed for using OCR code, not needed for using RAG app
 pytesseract
 pdf2image

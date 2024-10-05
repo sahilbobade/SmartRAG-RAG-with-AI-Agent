@@ -57,7 +57,7 @@ def initialize_model(GPT_version ,slider_temp, verbose_cb, api_key):
         deployment_name = "gpt-4"
 
     # Create an instance of OpenAI
-    model = ChatOpenAI(model= GPT_version, openai_api_key=api_key, verbose= verbose_cb, temperature=slider_temp)
+    model = ChatOpenAI(model= deployment_name, openai_api_key=api_key, verbose= verbose_cb, temperature=slider_temp)
 
     return model
 
